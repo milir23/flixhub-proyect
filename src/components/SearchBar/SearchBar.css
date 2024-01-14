@@ -21,7 +21,7 @@
     background-color: var(--colorDos);
     margin: 0px 120px 10px 120px;
     height: 495px;
-    max-width: ;
+    max-width: max-content;
 }
 
 
