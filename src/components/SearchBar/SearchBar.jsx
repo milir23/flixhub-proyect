@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import './SearchBar.css';
+import logo2 from '../assets/image4.png';
 
 const SearchBar = ({ addToFavorites }) => {
     const [query, setQuery] = useState('');
@@ -46,7 +47,7 @@ const SearchBar = ({ addToFavorites }) => {
         <div>
             <div className='sectionone'>
                 <div className="imagen">
-                    <img src="./src/assets/image4.png" className="tamañoimg" alt="popcorn" />
+                    <img src= {logo2} className="tamañoimg" alt="popcorn" />
                 </div>
                 <div className='hdosyp'>
                     <h2 className='estilohdos'>Bienvenidos a FlixHub</h2>

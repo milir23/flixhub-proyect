@@ -2,12 +2,13 @@
 
 import React from 'react';
 import './Header.css';
+import logo from '../assets/image6.png';
 
 
 const ComponenteLogo = () => {
   return (
     <div>
-      <a href="#"><img src="./src/assets/image6.png" alt="Flixhub" className="logo" /></a>
+      <a href="#"><img src={logo} alt="Flixhub" className="logo" /></a>
     </div>
   );
 };

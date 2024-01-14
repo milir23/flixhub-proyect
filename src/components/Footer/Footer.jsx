@@ -1,11 +1,12 @@
 import React from 'react';
 import './Footer.css';
+import logo from '../assets/image6.png';
 
 function Footer() {
   return (
     <footer className='footer margsec'>
       <div>
-        <img src="./src/assets/image6.png" alt="logo" />
+        <img src={logo} alt="logo" />
       </div>
       <div>
         <a href="#">Sobre Nosotros</a>
